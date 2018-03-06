@@ -1,0 +1,5 @@
+server:
+  port: 9999
+person:
+  name: lala
+  age: 12
