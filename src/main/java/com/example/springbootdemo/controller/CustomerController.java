@@ -23,6 +23,7 @@ public class CustomerController {
     public void AddGirl(@RequestParam("name") String name) {
         customer customer = new customer();
         customer.setName(name);
+        System.out.println(customer);
         customerRepository.save(customer);
 
 }
